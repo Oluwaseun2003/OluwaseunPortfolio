@@ -17,6 +17,18 @@ function Homepage() {
 
                     </div>
             </div>
+
+            <div className="home-sci">
+                <a href="#">
+                    <i class='bx bxl-facebook'></i>                   
+                 </a>
+                <a href="#">
+                <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="#">
+                <i class='bx bxl-linkedin' ></i>
+                </a>
+            </div>
         </section>
         </>
     )
