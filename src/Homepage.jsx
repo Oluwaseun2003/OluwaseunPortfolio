@@ -29,6 +29,10 @@ function Homepage() {
                 <i class='bx bxl-linkedin' ></i>
                 </a>
             </div>
+
+            <div className="home-imgHover">
+                
+            </div>
         </section>
         </>
     )
