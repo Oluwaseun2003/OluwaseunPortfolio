@@ -1,18 +1,27 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
+import "boxicons";
+import './header.css'
 
 function Header() {
-    <>
-     <header className="header">
-        <a href="#" className="logo">Oluwaseun</a>
+    return (
+        <>
+        <header className="header">
+           <a href="#" className="logo">Oluwaseun</a>
+   
+           <div className="bx bx-menu" id="menu-icon"></div>
+   
+           <nav className="navbar">
+               <a href="#home" className="active">Home</a>
+               <a href="#about">About</a>
+               <a href="#education">Education</a>
+               <a href="#skills">Skills</a>
+               <a href="#contact">Contact</a>
+           </nav>
+        </header>
+       </>
+    )
 
-        <nav className="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Education</a>
-            <a href="#">Skills</a>
-            <a href="#">Contact</a>
-        </nav>
-     </header>
-    </>
 }
+
+export default Header
