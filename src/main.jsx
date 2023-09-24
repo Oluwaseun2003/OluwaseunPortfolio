@@ -4,12 +4,14 @@ import App from './App.jsx'
 import Header from './header.jsx'
 import Homepage from './Homepage.jsx'
 import Aboutpage from './About.jsx'
+import Education from './Education.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <Header />,
     <Homepage />,
-    <Aboutpage />
+    <Aboutpage />,
+    <Education />
   </>
 )
