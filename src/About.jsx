@@ -9,6 +9,11 @@ function Aboutpage() {
             <h2 className="heading">About <span>Me</span></h2>
             <div className="about-img">
                 <img src={aboutImg} alt="" srcset="" />
+                <span className="circle-spin"></span>
+            </div>
+
+            <div className="about-content">
+                <h3>Frontend Developer</h3>
             </div>
         </section>
         
