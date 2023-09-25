@@ -16,6 +16,11 @@
     justify-content: space-between;
     background: transparent;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky{
+    background: var(--secondary-bg-color);
 }
 
 .logo{

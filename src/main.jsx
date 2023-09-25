@@ -7,7 +7,10 @@ import Aboutpage from './About.jsx'
 import Education from './Education.jsx'
 import Skills from './Skills.jsx'
 import Contact from './Contact.jsx'
+import Footer from './Footer.jsx'
 import './index.css'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
@@ -16,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Aboutpage />,
     <Education />,
     <Skills />, 
-    <Contact />
+    <Contact />,
+    <Footer />
   </>
 )
