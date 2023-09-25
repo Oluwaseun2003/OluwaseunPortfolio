@@ -6,6 +6,7 @@ import Homepage from './Homepage.jsx'
 import Aboutpage from './About.jsx'
 import Education from './Education.jsx'
 import Skills from './Skills.jsx'
+import Contact from './Contact.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Homepage />,
     <Aboutpage />,
     <Education />,
-    <Skills />
+    <Skills />, 
+    <Contact />
   </>
 )
