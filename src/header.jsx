@@ -4,13 +4,25 @@ import "boxicons";
 import './header.css'
 
 
-
 function Header() {
-    let menuIcon = document.querySelector("#menu-icon")
-    let navbar = document.querySelector("navbar")
 
-    let sections = document.querySelectorAll('section')
-    let navLinks = document.querySelectorAll('header nav a')
+let menuIcon = document.querySelector("#menu-icon")
+let navBar = document.querySelector("navbar")
+   
+// menuIcon.onclick = () =>{
+//     menuIcon.classList.toggle("bx-x")
+//     navBar.classList.onclick("active")
+// }
+
+
+
+
+    
+
+   
+
+    let sections = document.querySelectorAll("section")
+    let navLinks = document.querySelectorAll("header nav a")
 
 
     window.onscroll = () =>{
@@ -18,7 +30,7 @@ function Header() {
         let top = window.scrollY;
         let offset = sec.offsetTop - 100;
         let height = sec.offsetHeight;
-        let id = sec.getAttribute('id')
+        let id = sec.getAttribute("id")
 
         if(top >= offset && top < offset + height) {
 
@@ -30,9 +42,9 @@ function Header() {
        })
 
 
-        let header = document.querySelector('header')
+        let header = document.querySelector("header")
       
-        header.classList.toggle('sticky', window.scrollY > 100)
+        header.classList.toggle("sticky", window.scrollY > 100)
       }
 
     return (
@@ -42,7 +54,7 @@ function Header() {
    
            <div className="bx bx-menu" id="menu-icon"></div>
    
-           <nav className="navbar">
+           <nav className="navbar" id="navbar">
                <a href="#home" className="active">Home</a>
                <a href="#about">About</a>
                <a href="#education">Education</a>
