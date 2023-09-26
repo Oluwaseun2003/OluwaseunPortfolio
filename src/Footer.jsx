@@ -4,6 +4,11 @@ import './footer.css'
 
 
 function Footer(){
+let footer = document.querySelector("footer")
+
+// footer.classList.toggle("show-animate", this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight)
+
+
     return(
         <>
 
