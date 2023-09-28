@@ -20,7 +20,7 @@
 }
 
 .header.sticky{
-    background: var(--secondary-bg-color);
+    background: var(--bg-color);
 }
 
 .logo{
@@ -75,7 +75,7 @@
 #menu-icon .animate,
 .home.show-animate .animate{
     animation: showRight 1s ease forwards;
-    animation-delay: calc(.3s * var(--i));
+    animation-delay: calc(.3s * var(--b));
 }
 
 

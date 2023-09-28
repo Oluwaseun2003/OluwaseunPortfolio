@@ -81,7 +81,10 @@ function Education() {
 
                 <div className="education-column">
                 <span className="animate scroll" style={Dynamic}></span>
-                    <h3 className="title">Experience </h3>
+                    <h3 className="title">Experience
+                <span className="animate scroll" style={Dynamic}></span>
+                    
+                     </h3>
 
                     <div className="education-box">
                         <div className="education-content">

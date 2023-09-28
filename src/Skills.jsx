@@ -3,43 +3,45 @@ import { ReactDOM } from "react-dom";
 import './skills.css'
 
 function Skills() {
-    const Dynamic = {
-        '--i': 1,
-        '--b': 2,
-        '--c': 3,
-        '--d': 4,
-        '--e': 5,
-        '--f': 6,
-        '--g': 7,
-        '--h': 8,
-        '--j': 9,
-        '--k': 10,
-        '--l': 11,
-        '--m': 12,
-        '--n': 13,
-        '--o': 14,
-        '--p': 15,
-        '--r': 16,
-        '--s': 16,
-        '--t': 16,
-        '--u': 16,
-        '--v': 16,
-        '--w': 16,
+    // const Dynamic = {
+    //     '--i': 1,
+    //     '--b': 2,
+    //     '--c': 3,
+    //     '--d': 4,
+    //     '--e': 5,
+    //     '--f': 6,
+    //     '--g': 7,
+    //     '--h': 8,
+    //     '--j': 9,
+    //     '--k': 10,
+    //     '--l': 11,
+    //     '--m': 12,
+    //     '--n': 13,
+    //     '--o': 14,
+    //     '--p': 15,
+    //     '--r': 16,
+    //     '--s': 16,
+    //     '--t': 16,
+    //     '--u': 16,
+    //     '--v': 16,
+    //     '--w': 16,
  
-       }
+    //    }
 
     return(
         <>
         <section className="skills" id="skills">
             <h2 className="heading">My <span>Skills</span>
-            <span className="animatee scroll" style={Dynamic}></span>
+            {/* <span className="animatee scroll" style={Dynamic}></span> */}
             
             </h2>
 
 
             <div className="skills-row">
                 <div className="skills-column">
-                    <h3 className="title">Coding Skills <span className="animatee scroll" style={Dynamic}></span></h3>
+                    <h3 className="title">Coding Skills
+                     {/* <span className="animatee scroll" style={Dynamic}></span> */}
+                     </h3>
 
 
                     <div className="skills-box">
@@ -61,7 +63,7 @@ function Skills() {
                                 <div className="bar"><span></span></div>
                             </div>
                         </div>
-                <span className="animatee scroll" style={Dynamic}></span>
+                {/* <span className="animatee scroll" style={Dynamic}></span> */}
 
                     </div>
                 </div>
@@ -69,7 +71,7 @@ function Skills() {
 
                 <div className="skills-column">
                     <h3 className="title">Professional Skills
-                <span className="animatee scroll" style={Dynamic}></span>
+                {/* <span className="animatee scroll" style={Dynamic}></span> */}
                     
                     </h3>
 
@@ -93,7 +95,7 @@ function Skills() {
                                 </div>
                             </div>
                         </div>
-                <span className="animatee scroll" style={Dynamic}></span>
+                {/* <span className="animatee scroll" style={Dynamic}></span> */}
 
                 </div>
 

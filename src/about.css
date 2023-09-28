@@ -97,21 +97,11 @@ span{
 .heading .animatee,
 .about-content .animatee,
 .about-img .animatee,
-.heading.show-animatee .animatee{
+.about.show-animatee .animatee{
     animation: showRight 1s ease forwards;
-    animation-delay: calc(.3s * var(--c));
+    animation-delay: calc(.3s * var(--i));
 }
-
-.animatee.scroll{
-    transition: 1s ease;
-    transition-delay: calc(.3s / var(--d));
-    /* animation: none; */
-}
-.about.show-animatee .animatee.scroll{
-    transition-delay: calc(.3s * var(--e));
-    width: 0;
-
-}
+/*  */
 
 @keyframes aboutSpinner {
     100%{

@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactDOM } from "react-dom";
 import './Homepage.css'
 
 function Homepage() {
@@ -29,7 +30,7 @@ function Homepage() {
                     <span className="animate" style={Dynamic}></span>
 
                     <div className="btn-box">
-                        <a href="#" className="btn">Hire Me</a>
+                        <a href="#" className="btn">Download cv</a>
                         <a href="#" className="btn">Let's talk</a> 
                     <span className="animate" style={Dynamic}></span>
 
@@ -40,10 +41,10 @@ function Homepage() {
                 <a href="#">
                     <i class='bx bxl-facebook'></i>                   
                  </a>
-                <a href="#">
+                <a target="blank" href="https://twitter.com/Oluwaseun1511">
                 <i class='bx bxl-twitter' ></i>
                 </a>
-                <a href="#">
+                <a target="blank" href="https://www.linkedin.com/in/oluwaseun-oluwafemi-37b942229/">
                 <i class='bx bxl-linkedin' ></i>
                 </a>
                 <span className="animate" style={Dynamic}></span>
