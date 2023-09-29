@@ -2,6 +2,12 @@ import React from "react";
 import { ReactDOM } from "react-dom";
 import './Homepage.css'
 
+
+
+
+
+
+
 function Homepage() {
     
 
@@ -25,12 +31,16 @@ function Homepage() {
                     <h3>Frontend Developer</h3>
                     <span className="animate" style={Dynamic}></span>
                 </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta, commodi maiores cum distinctio eos quasi excepturi voluptate reprehenderit ut qui corrupti iusto iste suscipit obcaecati sit ea beatae ab?</p>
+                <p>I'm deeply passionate about creating visually appealing and interactive websites. With 2 years of experience, I specialize in creating responsive and user-friendly web interfaces.
+                I have a strong command of HTML, CSS, and JavaScript, along with expertise in ReactJs. I thrive on tackling complex challenges and delivering elegant solutions that exceed client expectations.
+
+                </p>
+
 
                     <span className="animate" style={Dynamic}></span>
 
                     <div className="btn-box">
-                        <a href="#" className="btn">Download cv</a>
+                        <a href="https://docs.google.com/document/d/1GNxzVLqyAXqhiEoNKvHlfSifd_xLTt7D/edit?usp=sharing&ouid=106320259637143680835&rtpof=true&sd=true" target="blank" className="btn">Download cv</a>
                         <a href="#" className="btn">Let's talk</a> 
                     <span className="animate" style={Dynamic}></span>
 
